@@ -10,7 +10,7 @@ Setup is described in more details in https://grpc.io/docs/quickstart/go.html
 * `go get -u github.com/golang/protobuf/protoc-gen-go`
 
 #### 2. Checkout the code
-git clone git@github.com:ranjithkumarshetty/sample-grpc-serverstream
+`git clone git@github.com:ranjithkumarshetty/sample-grpc-serverstream`
 
 #### 3. Generate .go file from .proto
 `go generate -v ./...`
