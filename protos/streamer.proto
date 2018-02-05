@@ -2,10 +2,12 @@ syntax = "proto3";
 
 package protos;
 
+// RPC to stream messages from the server to client over gRPC
 service Streamer {
 	rpc StreamMessages(Message) returns (stream Message) {}
 }
 
+// Message has only a string field to represent a text message
 message Message {
 	string msg = 1;
 }

@@ -1,3 +1,5 @@
+// Server code to run server in tls or non-tls mode based on argument.
+// Implements receiveMessages() to read messages from Server stream over gRPC.
 package main
 
 import (

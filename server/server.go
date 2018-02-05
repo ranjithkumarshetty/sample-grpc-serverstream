@@ -1,3 +1,5 @@
+// Server code to run server in tls or non-tls mode based on argument.
+// Implements StreamMessages() which creates hello reply with a counter to each of the client requesting stream connection.
 package main
 
 import (
