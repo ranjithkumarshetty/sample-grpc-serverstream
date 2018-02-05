@@ -3,7 +3,7 @@ syntax = "proto3";
 package protos;
 
 service Streamer {
-  rpc StreamMessages(Message) returns (stream Message) {}
+	rpc StreamMessages(Message) returns (stream Message) {}
 }
 
 message Message {
