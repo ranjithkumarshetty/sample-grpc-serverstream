@@ -4,7 +4,7 @@ Demo of gRPC-based client/server pair implemented in Go (In this case Server str
 ## Setup:
 #### 1. Setup Go and gRPC
 Setup is described in more details in https://grpc.io/docs/quickstart/go.html
-* Install Go - https://golang.org/dl/ (see also http://yo/go-code)
+* Install Go - https://golang.org/dl/ 
 * Install protoc - `brew install grpc` or from https://github.com/google/protobuf/releases
 * `go get -u google.golang.org/grpc`
 * `go get -u github.com/golang/protobuf/protoc-gen-go`
@@ -20,6 +20,7 @@ git clone git@github.com:ranjithkumarshetty/sample-grpc-serverstream
 
 #### 5. Generate certificate for the server
 `cd server; cd openssl req -newkey rsa:2048 -nodes -keyout server_key.pem -x509 -days 365 -out certificate.pem;`
+
 `cp certificate.pem ../client/`
 
 #### 6. Run server in one terminal
