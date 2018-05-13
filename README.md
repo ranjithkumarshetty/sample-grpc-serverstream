@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ranjithkumarshetty/sample-grpc-serverstream.svg?branch=master)](https://travis-ci.com/ranjithkumarshetty/sample-grpc-serverstream)
+
 # Streamer
 Demo of gRPC-based client/server pair implemented in Go (In this case Server streaming in RPC)
 
